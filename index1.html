@@ -1,0 +1,66 @@
+<html lang="en">
+    <head>
+        <title>Age Calculator</title>
+        <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+       <style>
+        body{
+            margin:0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: gray;
+        }
+        .container{
+            background-color: white;
+            box-shadow: 0 0  20px greenyellow;
+            margin:0 auto;
+            margin-top:100px;
+            text-align: 50px;
+            max-width: 600px;
+            border-radius: 5px;
+            padding:30px;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        form input[type="text"]{
+            padding:10px;
+            width:50%;
+        }
+       button{
+        background-color: blue;
+        color:white;
+        border-radius: 5px;
+       }
+       button:hover{
+        background-color: green;
+       }
+       #answer{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+       }
+        
+
+       </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Age Calculator</h1>
+            <div class="form">
+                <label for="birthday">Enter you date of birth: </label>
+                <input type="date" id="birthday" name="birthday">
+                <button id="btn1">Calculate Age</button>
+                <p id="answer"></p>
+            </div>
+        </div>
+        <script src="D:\xampp\htdocs\practice\age calculator\stylle.js"></script>
+        
+    </body>
+</html>
